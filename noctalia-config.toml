@@ -1,0 +1,1527 @@
+[accessibility]
+high_contrast = false
+ui_scale = 1.0
+
+[audio]
+enable_overdrive = false
+enable_sounds = true
+sound_theme = "freedesktop"
+sound_volume = 0.97999997809529305
+
+[backdrop]
+blur_intensity = 0.29999999329447746
+enabled = false
+tint_intensity = 0.0
+
+[bar]
+order = [ "default", "bar2" ]
+
+    [bar.bar2]
+    background_opacity = 0.59999998658895493
+    border_width = 0.5
+    center = []
+    concave_edge_corners = false
+    end = [ "bar_4", "widget_3", "wallpaper", "caffeine", "notes_2", "widget_5", "widget_editor", "widget_4" ]
+    font_weight = 700
+    hover_highlight = false
+    margin_ends = 260
+    padding = 12
+    panel_overlap = 0
+    radius = 0
+    radius_bottom_left = 12
+    radius_bottom_right = 12
+    reserve_space = false
+    shadow = false
+    start = [ "temp", "ram", "bar_2" ]
+    thickness = 38
+    widget_spacing = 12
+
+        [bar.bar2.dead_zone.actions]
+        left = "bar-toggle bar2"
+        right = "none"
+
+    [bar.default]
+    auto_hide = false
+    background_opacity = 0.59999998658895493
+    border = "outline_variant"
+    border_width = 0.5
+    capsule = false
+    capsule_border = "outline_variant"
+    capsule_border_width = 0.5
+    capsule_fill = "surface_container"
+    capsule_group = []
+    capsule_opacity = 1.0
+    capsule_padding = 6.0
+    capsule_radius = 0.0
+    capsule_thickness = 0.79999998584389687
+    center = [ "lyrics_2", "media", "audio_visualizer" ]
+    compositor_blur = true
+    concave_edge_corners = false
+    contact_shadow = false
+    enabled = true
+    end = [
+        "down",
+        "widget_6",
+        "clipboard",
+        "nightlight",
+        "volume",
+        "brightness",
+        "network",
+        "bluetooth",
+        "battery",
+        "date",
+        "session",
+        "right"
+    ]
+    font_family = "Space Grotesk"
+    font_scale = 1.0
+    font_weight = 700
+    hover_highlight = false
+    layer = "top"
+    margin_edge = 0
+    margin_ends = 0
+    margin_opposite_edge = 0
+    padding = 4
+    panel_overlap = 3
+    position = "top"
+    radius = 0
+    radius_bottom_left = 0
+    radius_bottom_right = 0
+    radius_top_left = 0
+    radius_top_right = 0
+    reserve_space = true
+    scale = 1.0
+    shadow = false
+    show_on_workspace_switch = false
+    smart_auto_hide = false
+    start = [ "left", "fedora", "notification", "Usage", "wallpaperdesk", "bar_3" ]
+    thickness = 38
+    widget_spacing = 12
+
+        [bar.default.dead_zone.actions]
+        middle = "none"
+        right = "none"
+
+[battery]
+warning_threshold = 10
+
+[bluetooth]
+connect_when_enabled = true
+connection_notifications = true
+
+[brightness]
+enable_ddcutil = false
+ignore_mmids = []
+minimum_brightness = 0.0
+sync_all_monitors = false
+
+[calendar]
+enabled = true
+event_date_format = "%A %e %B"
+event_time_format = "%H:%M"
+refresh_minutes = 15
+
+    [calendar.account.personal_google]
+    name = "personal calendar"
+    type = "google"
+
+    [calendar.reminders]
+    all_day_digest_time = "09:00"
+    default_lead_minutes = 10
+    enabled = true
+    use_event_reminders = true
+
+[control_center]
+hidden_tabs = []
+show_session_button = false
+show_shortcut_labels = false
+sidebar = "none"
+sidebar_section = "none"
+width = 720
+
+    [control_center.calendar]
+    show_events_card = false
+    show_week_numbers = false
+
+    [control_center.media]
+    show_visualizer = false
+
+    [[control_center.shortcuts]]
+    type = "wifi"
+
+    [[control_center.shortcuts]]
+    type = "bluetooth"
+
+    [[control_center.shortcuts]]
+    type = "caffeine"
+
+    [[control_center.shortcuts]]
+    type = "nightlight"
+
+    [[control_center.shortcuts]]
+    type = "wallpaper"
+
+[desktop_widgets]
+enabled = true
+schema_version = 2
+widget_order = [ "desktop-widget-0000000000000002", "desktop-widget-0000000000000006", "desktop-widget-0000000000000007" ]
+
+    [desktop_widgets.grid]
+    cell_size = 16
+    major_interval = 4
+    visible = true
+
+    [desktop_widgets.widget.desktop-widget-0000000000000001]
+    box_height = 0.0
+    box_width = 0.0
+    cx = 97.0
+    cy = 172.0
+    enabled = true
+    output = "eDP-1"
+    placement_height = 768.0
+    placement_width = 1366.0
+    rotation = 0.0
+    type = "sticker"
+
+        [desktop_widgets.widget.desktop-widget-0000000000000001.settings]
+        background_padding = 8
+        background_radius = 0
+        image_path = "/home/bvd/Pictures/wallpapers/fantasy/IMG_20260830_110357_108.jpg"
+        opacity = 1.0
+
+    [desktop_widgets.widget.desktop-widget-0000000000000002]
+    box_height = 96.0
+    box_width = 368.0
+    cx = 683.0001220703125
+    cy = 640.0001220703125
+    output = "eDP-1"
+    placement_height = 768.0
+    placement_width = 1366.0
+    rotation = 0.0
+    type = "audio_visualizer"
+
+        [desktop_widgets.widget.desktop-widget-0000000000000002.settings]
+        background = false
+        bands = 24
+        centered = false
+        show_when_idle = false
+
+    [desktop_widgets.widget.desktop-widget-0000000000000006]
+    box_height = 208.0
+    box_width = 192.0
+    cx = 251.0
+    cy = 312.0
+    output = "eDP-1"
+    placement_height = 768.0
+    placement_width = 1366.0
+    rotation = 0.0
+    type = "yocraft/desktop-launcher:widget"
+
+        [desktop_widgets.widget.desktop-widget-0000000000000006.settings]
+        apps = [ "zed", "brave-origin", "ghostty", "nautilus" ]
+        background_opacity = 0.0
+        background_radius = 0
+        grid_layout = true
+
+    [desktop_widgets.widget.desktop-widget-0000000000000007]
+    box_height = 0.0
+    box_width = 0.0
+    cx = 683.0
+    cy = 171.12109375
+    output = "eDP-1"
+    placement_height = 768.0
+    placement_width = 1366.0
+    rotation = 0.0
+    type = "clock"
+
+        [desktop_widgets.widget.desktop-widget-0000000000000007.settings]
+        background = false
+
+[dock]
+active_monitor_only = false
+active_opacity = 1.0
+active_scale = 1.0
+auto_hide = false
+background_opacity = 0.59999998658895493
+border = "outline_variant"
+border_width = 0.5
+concave_edge_corners = false
+cross_axis_padding = 8
+enabled = true
+icon_size = 46
+inactive_opacity = 1.0
+inactive_scale = 1.0
+item_spacing = 0
+launcher_custom_image = ""
+launcher_custom_image_colorize = false
+launcher_icon = "grid-dots"
+launcher_position = "none"
+layer = "overlay"
+magnification = true
+magnification_scale = 1.3000000044703484
+main_axis_padding = 12
+margin_edge = 12
+margin_ends = 0
+pinned = [
+    "ai.storyteller.wordcraft",
+    "ai.storyteller.figcraft",
+    "ai.storyteller.deckcraft",
+    "org.gnome.Nautilus",
+    "brave-pjibgclleladliembfgfagdaldikeohf-Default",
+    "org.gnome.SystemMonitor",
+    "io.github.shiftey.Desktop",
+    "brave-origin",
+    "dev.zed.Zed",
+    "com.google.AndroidStudio",
+    "com.mitchellh.ghostty",
+    "org.gnome.Software",
+    "org.gnome.Calendar"
+]
+position = "bottom"
+radius = 40
+radius_bottom_left = 18
+radius_bottom_right = 18
+radius_top_left = 18
+radius_top_right = 18
+reserve_space = false
+shadow = true
+show_dots = true
+show_instance_count = true
+show_running = true
+smart_auto_hide = true
+
+[hooks]
+battery_charging = "notify-send \"Battery\" \"Charging\""
+battery_discharging = "notify-send \"Battery\" \"Discharging\""
+battery_percentage_changed = []
+battery_plugged = []
+bluetooth_disabled = []
+bluetooth_enabled = []
+colors_changed = []
+logging_out = []
+power_profile_changed = []
+rebooting = []
+session_locked = "noctalia msg bar-toggle bar2"
+session_unlocked = []
+shutting_down = []
+started = "noctalia msg session lock"
+theme_mode_changed = []
+wallpaper_changed = []
+wifi_disabled = "notify-send \"Wifi\" \"Disabled\""
+wifi_enabled = "notify-send \"Wifi\" \"Enabled\""
+
+[hot_corners]
+delay_ms = 250
+enabled = false
+
+    [hot_corners.bottom_left]
+    action = "none"
+    command = ""
+
+    [hot_corners.bottom_right]
+    action = "window_switcher"
+    command = ""
+
+    [hot_corners.top_left]
+    action = "none"
+    command = ""
+
+    [hot_corners.top_right]
+    action = "none"
+    command = ""
+
+[idle]
+behavior_order = [ "lock", "screen-off", "lock-and-suspend" ]
+pre_action_fade_seconds = 2.0
+
+    [idle.behavior.lock]
+    action = "lock"
+    command = ""
+    enabled = false
+    locked_timeout = 0.0
+    resume_command = ""
+    timeout = 600.0
+
+    [idle.behavior.lock-and-suspend]
+    action = "lock_and_suspend"
+    command = ""
+    enabled = false
+    locked_timeout = 0.0
+    resume_command = ""
+    timeout = 900.0
+
+    [idle.behavior.screen-off]
+    action = "screen_off"
+    command = ""
+    enabled = false
+    locked_timeout = 0.0
+    resume_command = ""
+    timeout = 660.0
+
+[keybinds]
+cancel = [ "Escape" ]
+copy = [ "Ctrl+c" ]
+delete = [ "Delete" ]
+down = [ "Down" ]
+left = [ "Left" ]
+right = [ "Right" ]
+save = [ "Ctrl+s" ]
+tab_next = [ "Tab" ]
+tab_previous = [ "Shift+ISO_Left_Tab" ]
+up = [ "Up" ]
+validate = [ "Return", "KP_Enter", "space" ]
+
+[location]
+address = "Surakarta, Indonesia"
+auto_locate = false
+custom_schedule = false
+sunrise = ""
+sunset = ""
+
+[lockscreen]
+allow_empty_password = true
+blur_intensity = 0.5
+blurred_desktop = false
+edge_smoothness = 0.30000001192092896
+enabled = true
+fingerprint = true
+lock_before_suspend = true
+monitors = []
+tint_intensity = 0.30000001192092896
+transition = [ "disc" ]
+transition_duration = 1500.0
+wallpaper = ""
+
+[lockscreen_widgets]
+enabled = true
+schema_version = 2
+widget_order = [
+    "lockscreen-login-box@eDP-1",
+    "lockscreen-widget-0000000000000001",
+    "lockscreen-widget-0000000000000002",
+    "lockscreen-widget-0000000000000003",
+    "lockscreen-login-box@WL-1",
+    "lockscreen-login-box@NOOP-1"
+]
+
+    [lockscreen_widgets.grid]
+    cell_size = 16
+    major_interval = 4
+    visible = true
+
+    [lockscreen_widgets.widget."lockscreen-login-box@HDMI-A-2"]
+    box_height = 196.0
+    box_width = 810.0
+    cx = 2048.0
+    cy = 1648.125
+    output = "HDMI-A-2"
+    placement_height = 2160.0
+    placement_width = 4096.0
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@HDMI-A-2".settings]
+        background_color = "surface_container"
+        background_opacity = 0.88
+        background_radius = 12.0
+        center_password_text = false
+        input_opacity = 1.0
+        input_radius = 6.0
+        layout = "regular"
+        show_caps_lock = true
+        show_keyboard_layout = true
+        show_login_button = true
+        show_media = true
+        show_password_reveal = true
+        show_session_buttons = true
+        show_unlock_hint = true
+        show_weather = true
+
+    [lockscreen_widgets.widget."lockscreen-login-box@NOOP-1"]
+    box_height = 196.0
+    box_width = 810.0
+    cx = 640.0
+    cy = 538.0
+    output = "NOOP-1"
+    placement_height = 720.0
+    placement_width = 1280.0
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@NOOP-1".settings]
+        background_color = "surface_container"
+        background_opacity = 0.88
+        background_radius = 12.0
+        center_password_text = false
+        input_opacity = 1.0
+        input_radius = 6.0
+        layout = "regular"
+        show_caps_lock = true
+        show_keyboard_layout = true
+        show_login_button = true
+        show_media = true
+        show_password_reveal = true
+        show_session_buttons = true
+        show_unlock_hint = true
+        show_weather = true
+
+    [lockscreen_widgets.widget."lockscreen-login-box@WL-1"]
+    box_height = 196.0
+    box_width = 810.0
+    cx = 667.0
+    cy = 516.0
+    output = "WL-1"
+    placement_height = 698.0
+    placement_width = 1334.0
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@WL-1".settings]
+        background_color = "surface_container"
+        background_opacity = 0.88
+        background_radius = 12.0
+        center_password_text = false
+        input_opacity = 1.0
+        input_radius = 6.0
+        layout = "regular"
+        show_caps_lock = true
+        show_keyboard_layout = true
+        show_login_button = true
+        show_media = true
+        show_password_reveal = true
+        show_session_buttons = true
+        show_unlock_hint = true
+        show_weather = true
+
+    [lockscreen_widgets.widget."lockscreen-login-box@eDP-1"]
+    box_height = 70.0
+    box_width = 400.0
+    cx = 683.0001220703125
+    cy = 652.99993896484375
+    enabled = true
+    output = "eDP-1"
+    placement_height = 768.0
+    placement_width = 1366.0
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@eDP-1".settings]
+        background_color = "surface_container"
+        background_opacity = 0.88
+        background_radius = 12.0
+        center_password_text = false
+        input_opacity = 1.0
+        input_radius = 6.0
+        layout = "compact"
+        show_caps_lock = true
+        show_keyboard_layout = true
+        show_login_button = true
+        show_media = true
+        show_password_reveal = true
+        show_session_buttons = true
+        show_unlock_hint = true
+        show_weather = true
+
+    [lockscreen_widgets.widget.lockscreen-widget-0000000000000001]
+    box_height = 80.0
+    box_width = 368.0
+    cx = 683.0001220703125
+    cy = 528.0
+    enabled = true
+    output = "eDP-1"
+    placement_height = 768.0
+    placement_width = 1366.0
+    rotation = 0.0
+    type = "audio_visualizer"
+
+        [lockscreen_widgets.widget.lockscreen-widget-0000000000000001.settings]
+        background = false
+        bands = 16
+        centered = false
+        clock_style = "digital"
+        shadow = false
+        show_wave = false
+        show_when_idle = false
+
+    [lockscreen_widgets.widget.lockscreen-widget-0000000000000002]
+    box_height = 192.0
+    box_width = 320.0
+    cx = 683.0001220703125
+    cy = 175.99998474121094
+    enabled = true
+    output = "eDP-1"
+    placement_height = 768.0
+    placement_width = 1366.0
+    rotation = 0.0
+    type = "clock"
+
+        [lockscreen_widgets.widget.lockscreen-widget-0000000000000002.settings]
+        background = false
+        bands = 32
+        color_1 = "error"
+        color_2 = "error"
+        show_when_idle = true
+
+    [lockscreen_widgets.widget.lockscreen-widget-0000000000000003]
+    box_height = 0.0
+    box_width = 0.0
+    cx = 683.0001220703125
+    cy = 384.0
+    enabled = true
+    output = "eDP-1"
+    placement_height = 768.0
+    placement_width = 1366.0
+    rotation = 0.0
+    type = "media_player"
+
+        [lockscreen_widgets.widget.lockscreen-widget-0000000000000003.settings]
+        album_art_background = false
+        album_art_blur = 56
+        audio_visualizer = false
+        background = true
+        background_color = "surface_container"
+        background_opacity = 0.75
+        background_radius = 0
+        hide_when_no_media = true
+        layout = "horizontal"
+
+    [lockscreen_widgets.widget.lockscreen-widget-0000000000000004]
+    box_height = 96.0
+    box_width = 368.0
+    cx = 683.0
+    cy = 720.0
+    output = "eDP-1"
+    placement_height = 768.0
+    placement_width = 1366.0
+    rotation = 0.0
+    type = "audio_visualizer"
+
+        [lockscreen_widgets.widget.lockscreen-widget-0000000000000004.settings]
+        background = false
+        bands = 24
+        centered = false
+        mirrored = false
+        reversed = false
+        show_when_idle = false
+
+    [lockscreen_widgets.widget.lockscreen-widget-0000000000000006]
+    box_height = 0.0
+    box_width = 0.0
+    cx = 459.0
+    cy = 636.0
+    output = "eDP-1"
+    placement_height = 768.0
+    placement_width = 1366.0
+    rotation = 0.0
+    type = "button"
+
+        [lockscreen_widgets.widget.lockscreen-widget-0000000000000006.settings]
+        background = true
+        command = "poweroff"
+        glyph = "power"
+        variant = "default"
+
+    [lockscreen_widgets.widget.lockscreen-widget-0000000000000007]
+    box_height = 0.0
+    box_width = 0.0
+    cx = 907.0
+    cy = 638.85546875
+    output = "eDP-1"
+    placement_height = 768.0
+    placement_width = 1366.0
+    rotation = 0.0
+    type = "button"
+
+        [lockscreen_widgets.widget.lockscreen-widget-0000000000000007.settings]
+        background = true
+        command = "reboot"
+        glyph = "reboot"
+        variant = "default"
+
+    [lockscreen_widgets.widget.lockscreen-widget-0000000000000008]
+    box_height = 192.0
+    box_width = 672.0
+    cx = 683.0
+    cy = 336.0
+    output = "eDP-1"
+    placement_height = 768.0
+    placement_width = 1366.0
+    rotation = 0.0
+    type = "goatnath/spotify-lyrics:lyrics-desktop"
+
+        [lockscreen_widgets.widget.lockscreen-widget-0000000000000008.settings]
+        background = false
+
+[nightlight]
+enabled = true
+force = true
+temperature_day = 4000
+temperature_night = 4000
+
+[notification]
+background_opacity = 0.59999998658895493
+border = true
+border_color = "outline_variant"
+border_width = 0.5
+collapse_on_dismiss = true
+enable_daemon = true
+follow_focused_output = false
+history_retention_hours = 0
+keep_dismissed_in_history = true
+layer = "overlay"
+max_visible = 0
+monitors = []
+offset_x = 20
+offset_y = 6
+position = "top_center"
+scale = 1.0
+show_actions = true
+show_app_name = true
+width = 360
+
+[osd]
+background_opacity = 0.59999998658895493
+border = true
+border_color = "outline_variant"
+border_width = 0.5
+enabled = true
+follow_focused_output = false
+hide_delay_ms = 1400
+monitors = []
+offset_x = 20
+offset_y = 56
+orientation = "horizontal"
+position = "bottom_center"
+position_vertical = "top_center"
+scale = 1.0
+
+    [osd.kinds]
+    bluetooth = true
+    brightness = true
+    caffeine = true
+    dnd = true
+    keyboard_backlight = true
+    keyboard_layout = true
+    lock_keys = true
+    media = true
+    nightlight = true
+    power_profile = true
+    privacy = true
+    volume = true
+    volume_input = true
+    volume_output = true
+    wifi = true
+
+[plugin_settings."0lucasmatheus/awwwall"]
+transition_type = "wave"
+
+[plugin_settings."alexander/screen-toolkit"]
+hide-cursor = false
+record-audio-out = true
+
+[plugin_settings."baizhu/paged-todo"]
+panel_position = "auto"
+
+[plugin_settings."decksters-lab/palette-creator"]
+creator_placement = "attached"
+
+[plugin_settings."dotnetrob/cat"]
+panel_open_near_click = false
+panel_placement = "floating"
+panel_position = "center"
+
+[plugin_settings."faminec/terminal-widgets"]
+output = "eDP-1"
+terminal = "foot"
+
+[plugin_settings."fel/quill"]
+ai_backend = "off"
+notes_dir = "/home/bvd/Documents/====Backup"
+
+[plugin_settings."goatnath/spotify-lyrics"]
+lyrics-panel_position = "center"
+
+[plugin_settings."h-jangra/region-recorder"]
+audio_source = "default_output"
+frame_rate = 40
+
+[plugin_settings."imjustdoingmypart/niri-animations"]
+picker_placement = "attached"
+
+[plugin_settings."mera/localsend"]
+panel_layer = "overlay"
+
+[plugin_settings."noctalia/mpvpaper"]
+picker_placement = "floating"
+picker_position = "center"
+video_directory = "/home/bvd/Pictures/wallpapers/art"
+
+[plugin_settings."noctalia/notes"]
+panel_position = "auto"
+
+[plugin_settings."noctalia/umbriel-companion"]
+panel_open_near_click = false
+
+[plugin_settings."oldirtty/color_picker"]
+circular-swatch = false
+lowercase-hex = true
+panel_open_near_click = true
+panel_placement = "floating"
+panel_position = "center"
+picker_tool = "grim_slurp"
+
+[plugin_settings."piero-93/thinkpad-fan"]
+panel_open_near_click = false
+panel_placement = "floating"
+panel_position = "center"
+
+[plugin_settings."ycf/mawaqit"]
+azanFile = "azan3.mp3"
+city = "Surakarta"
+country = "Indonesia"
+method = "20"
+panel_position = "center"
+playAzan = true
+twelveHourFormat = true
+
+[plugin_settings."yuki/lunar-workspaces"]
+compositor = "niri"
+
+[plugin_settings."yuuto/calculator"]
+angle_unit = "deg"
+panel_placement = "floating"
+panel_position = "center"
+
+[plugins]
+auto_update = "all"
+enabled = [
+    "h-jangra/region-recorder",
+    "yuuto/calculator",
+    "setyvii/niri-rules-studio",
+    "noctalia/notes",
+    "thepunkoff/pomodoro",
+    "decksters-lab/palette-creator",
+    "vn1k/icons",
+    "alexander/screen-toolkit",
+    "ycf/mawaqit",
+    "oldirtty/color_picker",
+    "namamu/jadwal-kuliah",
+    "goatnath/spotify-lyrics"
+]
+
+    [[plugins.source]]
+    kind = "git"
+    location = "https://github.com/noctalia-dev/official-plugins"
+    name = "official"
+
+    [[plugins.source]]
+    kind = "git"
+    location = "https://github.com/noctalia-dev/community-plugins"
+    name = "community"
+
+    [[plugins.source]]
+    kind = "path"
+    location = "https://github.com/F4M1N3C/noctalia-plugins"
+    name = "dev"
+
+    [[plugins.source]]
+    kind = "path"
+    location = "/home/bvd/.local/share/noctalia/plugins"
+    name = "jadwal_kuliah"
+
+    [[plugins.source]]
+    kind = "path"
+    location = "/home/bvd/.config/noctalia/plugins"
+    name = "Anjay_21"
+
+[shell]
+app_icon_color = "on_surface_variant"
+app_icon_colorize = false
+avatar_path = "/home/bvd/Pictures/Pin/pilot.jpeg"
+button_borders = false
+card_borders = false
+clipboard_auto_paste = "auto"
+clipboard_confirm_clear_history = true
+clipboard_enabled = true
+clipboard_history_max_entries = 100
+clipboard_image_action_command = ""
+clipboard_keep_from_closed_apps = true
+corner_radius_scale = 0.5000000074505806
+date_format = "%A, %x"
+disable_mipmaps = false
+external_ip_enabled = false
+font_family = "Bricolage Grotesque"
+input_borders = false
+launch_apps_as_systemd_services = false
+launch_apps_custom_command = ""
+niri_overview_type_to_launch_enabled = false
+offline_mode = false
+panel_anchor_bar = "default"
+password_style = "random"
+polkit_agent = true
+popup_borders = false
+popup_shadows = true
+readline_shortcuts = false
+screen_time_enabled = true
+settings_expand_all_groups = false
+settings_show_advanced = true
+settings_window_translucent = true
+setup_wizard_enabled = true
+shared_gl_context = true
+show_location = true
+telemetry_enabled = false
+time_format = "{:%H:%M}"
+umbriel_overview_type_to_launch_enabled = false
+
+    [shell.animation]
+    enabled = true
+    speed = 0.7500000111758709
+
+    [shell.greeter_sync]
+    auto_sync = false
+
+    [shell.keyboard_layout]
+
+    [shell.launcher]
+    app_grid = false
+    auto_paste = "auto"
+    categories = true
+    category_icons_only = false
+    compact = true
+    default_view = "all"
+    fetch_exchange_rates = true
+    pinned = [ "dev.zed.Zed", "code-oss", "brave-origin" ]
+    provider_prefix = "/"
+    show_app_actions = true
+    show_app_origin_indicator = false
+    show_icons = true
+    show_navigation_labels = false
+    sort_by_usage = true
+    width = 560
+
+        [shell.launcher.dmenu]
+
+        [shell.launcher.panels]
+        ignored = [ "polkit", "setup-wizard", "test", "launcher" ]
+
+    [shell.mpris]
+    blacklist = []
+
+    [shell.panel]
+    border_width = 0.5
+    borders = true
+    clipboard_placement = "floating"
+    clipboard_position = "center"
+    control_center_placement = "floating"
+    control_center_position = "center"
+    floating_layer = "overlay"
+    floating_offset = 100
+    launcher_placement = "floating"
+    launcher_position = "center"
+    list_item_background = true
+    open_near_click_clipboard = false
+    open_near_click_control_center = true
+    open_near_click_launcher = false
+    open_near_click_session = false
+    open_near_click_wallpaper = false
+    polkit_placement = "floating"
+    polkit_position = "center"
+    session_placement = "floating"
+    session_position = "center"
+    shadow = true
+    transparency_mode = "glass"
+    wallpaper_placement = "floating"
+    wallpaper_position = "center"
+
+    [shell.privacy]
+    cam_filter_regex = ""
+    mic_filter_regex = ""
+    screen_filter_regex = ""
+
+    [shell.screen_corners]
+    enabled = false
+    size = 78
+
+    [shell.screenshot]
+    annotate = true
+    close_on_copy = true
+    close_on_save = true
+    confirm_region = true
+    copy_to_clipboard = true
+    directory = "/home/bvd/Pictures/Screenshots"
+    filename_pattern = ""
+    freeze_screen = true
+    pipe_command = ""
+    pipe_to_command = false
+    region_dim_opacity = 0.59999998658895493
+    remember_last_region = false
+    save_to_file = true
+    show_cursor = true
+    skip_annotate_on_copy_save = false
+
+    [shell.session]
+    grid = true
+    grid_columns = 2
+    show_shortcuts = false
+
+        [shell.session.power]
+
+        [[shell.session.actions]]
+        action = "lock"
+        command = ""
+        countdown_seconds = 0.0
+        enabled = true
+        glyph = ""
+        label = ""
+        shortcut = "1"
+        variant = "default"
+
+        [[shell.session.actions]]
+        action = "logout"
+        command = ""
+        countdown_seconds = 0.0
+        enabled = true
+        glyph = ""
+        label = ""
+        shortcut = "2"
+        variant = "default"
+
+        [[shell.session.actions]]
+        action = "lock_and_suspend"
+        command = ""
+        countdown_seconds = 0.0
+        enabled = false
+        glyph = ""
+        label = ""
+        shortcut = "3"
+        variant = "default"
+
+        [[shell.session.actions]]
+        action = "reboot"
+        command = ""
+        countdown_seconds = 0.0
+        enabled = true
+        glyph = ""
+        label = ""
+        shortcut = "4"
+        variant = "default"
+
+        [[shell.session.actions]]
+        action = "shutdown"
+        command = ""
+        countdown_seconds = 0.0
+        enabled = true
+        glyph = ""
+        label = ""
+        shortcut = "5"
+        variant = "destructive"
+
+    [shell.shadow]
+    alpha = 0.0
+    direction = "center"
+
+    [shell.window_switcher]
+    current_workspace_only = false
+    mru = false
+    show_all_outputs = true
+    show_app_icon = true
+    show_caption = true
+    show_count = true
+    style = "compact"
+
+[storage]
+key_file = ""
+key_source = "secret-service"
+
+[system.monitor]
+cpu_freq_activity_threshold = 2.5
+cpu_freq_critical_threshold = 4.5
+cpu_poll_seconds = 2.0
+cpu_temp_activity_threshold = 60.0
+cpu_temp_critical_threshold = 85.0
+cpu_temp_sensor_path = ""
+cpu_usage_activity_threshold = 50.0
+cpu_usage_critical_threshold = 90.0
+disk_free_activity_threshold = 80.0
+disk_free_critical_threshold = 95.0
+disk_free_pct_activity_threshold = 80.0
+disk_free_pct_critical_threshold = 95.0
+disk_poll_seconds = 10.0
+disk_used_activity_threshold = 80.0
+disk_used_critical_threshold = 95.0
+disk_used_pct_activity_threshold = 80.0
+disk_used_pct_critical_threshold = 95.0
+enabled = true
+gpu_poll_seconds = 5.0
+gpu_temp_activity_threshold = 60.0
+gpu_temp_critical_threshold = 85.0
+gpu_usage_activity_threshold = 50.0
+gpu_usage_critical_threshold = 95.0
+gpu_vram_activity_threshold = 50.0
+gpu_vram_critical_threshold = 90.0
+memory_poll_seconds = 2.0
+net_rx_activity_threshold = 1.0
+net_rx_critical_threshold = 50.0
+net_tx_activity_threshold = 1.0
+net_tx_critical_threshold = 50.0
+network_poll_seconds = 3.0
+ram_pct_activity_threshold = 60.0
+ram_pct_critical_threshold = 90.0
+swap_pct_activity_threshold = 20.0
+swap_pct_critical_threshold = 80.0
+
+[theme]
+builtin = "Ayu"
+community_palette = "ADW"
+custom_palette = "bivanoid"
+mode = "dark"
+pure_black_dark = true
+shell_mode = "follow"
+source = "custom"
+wallpaper_scheme = "m3-content"
+
+    [theme.templates]
+    builtin_ids = [ "btop", "cava", "gtk3", "gtk4", "ghostty", "niri", "qt" ]
+    community_ids = [
+        "brave",
+        "brave-origin",
+        "chromium-based",
+        "vivaldi",
+        "discord",
+        "libreoffice",
+        "zed",
+        "fastfetch",
+        "starship",
+        "yazi"
+    ]
+    enable_builtin_templates = true
+    enable_community_templates = true
+
+        [theme.templates.user.palette_creator_live]
+        input_path = "/home/bvd/.local/state/noctalia/plugins/materialized/community/palette-creator/templates/live-snapshot.tpl"
+        output_path = "/home/bvd/.local/state/noctalia/plugin-data/kyle-palette-creator/live-snapshot.json"
+
+[wallpaper]
+directory = "/home/bvd/Pictures"
+directory_dark = ""
+directory_light = ""
+edge_smoothness = 0.30000001192092896
+enabled = true
+fill_color = ""
+fill_mode = "crop"
+per_monitor_directories = false
+transition = [ "disc" ]
+transition_duration = 1500.0
+transition_on_startup = false
+
+    [wallpaper.automation]
+    enabled = false
+    interval_seconds = 1800
+    order = "alphabetical"
+    recursive = false
+
+    [wallpaper.default]
+    path = "/home/bvd/Pictures/wallpapers/fantasy/devault-ascii-20261115-171428.jpg"
+
+    [wallpaper.last]
+    path = "/home/bvd/Pictures/wallpapers/fantasy/devault-ascii-20261115-171428.jpg"
+
+    [wallpaper.monitors.eDP-1]
+    path = "/home/bvd/Pictures/wallpapers/fantasy/devault-ascii-20261115-171428.jpg"
+
+    [[wallpaper.favorite]]
+    palette_source = "wallpaper"
+    path = "/home/bvd/Pictures/wallpapers/art/guidozotti_pindown.io_1784982761.jpg"
+    theme_mode = "dark"
+    wallpaper_scheme = "m3-content"
+
+    [[wallpaper.favorite]]
+    custom_palette = "bivanoid"
+    palette_source = "custom"
+    path = "/home/bvd/Pictures/wallpapers/art/18-fractal-glass-hero-bg.jpg"
+    theme_mode = "dark"
+
+    [[wallpaper.favorite]]
+    custom_palette = "bivanoid"
+    palette_source = "custom"
+    path = "/home/bvd/Pictures/wallpapers/art/walpaperbvd.png"
+    theme_mode = "dark"
+
+[weather]
+effects = false
+enabled = true
+refresh_minutes = 30
+unit = "metric"
+
+[widget.Usage]
+font_family = "Bricolage Grotesque"
+text = "System"
+type = "text"
+
+    [widget.Usage.actions]
+    left = "panel-toggle control-center system"
+
+[widget.active_window]
+anchor = true
+capsule = true
+capsule_border = "outline_variant"
+capsule_border_width = 0.5
+capsule_padding = 12
+capsule_radius = "auto"
+font_weight = 700
+icon_size = 14.0
+interactive = false
+max_length = 260.0
+min_length = 0
+show_empty_label = true
+title_scroll = "on_hover"
+type = "active_window"
+
+[widget.audio_visualizer]
+bands = 4
+capsule = true
+capsule_border = "outline_variant"
+capsule_border_width = 0.0
+capsule_opacity = 0.0
+capsule_padding = 0
+capsule_radius = 30
+icon_color = "primary"
+interactive = false
+type = "audio_visualizer"
+width = 24
+
+[widget.bar]
+showElapsed = true
+type = "ycf/mawaqit:bar"
+widgetIcon = ""
+
+[widget.bar_2]
+type = "namamu/jadwal-kuliah:bar"
+
+[widget.bar_3]
+font_family = "Bricolage Grotesque"
+type = "ycf/mawaqit:bar"
+
+[widget.bar_4]
+type = "yuuto/calculator:bar"
+
+[widget.battery]
+capsule = false
+capsule_border = "outline_variant"
+capsule_border_width = 0.0
+capsule_opacity = 0.0
+capsule_padding = 0
+capsule_radius = 20
+display_mode = "graphic"
+font_family = "Bricolage Grotesque"
+font_scale = 0.97999999999999998
+font_weight = 700
+scale = 0.85000000000000009
+type = "battery"
+
+[widget.bluetooth]
+capsule = false
+capsule_border_width = 0.0
+capsule_opacity = 0.0
+capsule_padding = 0
+font_weight = 700
+type = "bluetooth"
+
+[widget.brightness]
+font_family = "Bricolage Grotesque"
+
+[widget.caffeine]
+show_tooltip = true
+
+[widget.clipboard]
+capsule = false
+capsule_border = "outline_variant"
+capsule_border_width = 0.0
+capsule_opacity = 0.0
+capsule_padding = 0
+capsule_radius = "auto"
+type = "clipboard"
+
+[widget.clock]
+capsule = false
+capsule_border = "outline_variant"
+capsule_border_width = 0.0
+capsule_opacity = 0.0
+capsule_padding = 0
+color = "secondary"
+font_weight = 700
+type = "clock"
+
+[widget.control-center]
+capsule = true
+capsule_border = "outline_variant"
+capsule_border_width = 0.5
+custom_image = "/home/bvd/Pictures/Figma/bvd.svg"
+font_scale = 2.5
+scale = 1.25
+type = "control-center"
+
+[widget.cpu]
+stat = "cpu_usage"
+type = "sysmon"
+
+[widget.date]
+capsule = false
+capsule_border_width = 0.5
+capsule_opacity = 0.25
+capsule_padding = 12
+font_family = "Bricolage Grotesque"
+format = "{:%a %d} {:%H:%M}"
+type = "clock"
+
+[widget.down]
+glyph = "circle-caret-down"
+scale = 1.1000000000000001
+type = "custom_button"
+
+    [widget.down.actions]
+    left = "bar-toggle bar2"
+
+[widget.fedora]
+color = "primary"
+custom_image = "/home/bvd/Pictures/Asset/fedora.svg"
+font_scale = 0.94999999999999996
+icon_color = "primary_container"
+scale = 1.1500000000000001
+show_tooltip = true
+type = "custom_button"
+
+    [widget.fedora.actions]
+    left = "panel-toggle launcher"
+
+[widget.input_volume]
+device = "input"
+type = "volume"
+
+[widget.keyboard_layout]
+hide_when_single_layout = false
+type = "keyboard_layout"
+
+[widget.launcher]
+capsule = true
+capsule_border = "outline_variant"
+custom_image = "/home/bvd/Pictures/Figma/bvd.svg"
+font_scale = 1.8200000000000001
+scale = 1.25
+type = "launcher"
+
+[widget.launchertext]
+capsule = false
+capsule_border_width = 0.0
+capsule_opacity = 0.0
+capsule_padding = 0
+font_family = "Bricolage Grotesque"
+text = "App"
+type = "text"
+
+    [widget.launchertext.actions]
+    left = "panel-toggle launcher"
+
+[widget.left]
+length = 12
+type = "spacer"
+
+[widget.lock_keys]
+display = "short"
+hide_when_off = false
+show_caps_lock = true
+show_num_lock = true
+show_scroll_lock = false
+type = "lock_keys"
+
+[widget.lyrics]
+enable_scroll = false
+scale = 0.94999999999999996
+type = "goatnath/spotify-lyrics:lyrics"
+
+[widget.lyrics_2]
+type = "goatnath/spotify-lyrics:lyrics"
+
+[widget.media]
+album_art_only = false
+anchor = false
+art_size = 43
+artist_first = true
+capsule = true
+capsule_border = "outline_variant"
+capsule_border_width = 0.5
+capsule_opacity = 0.5
+capsule_padding = 6
+capsule_radius = 20
+font_family = "Bricolage Grotesque 96pt ExtraBold"
+font_weight = 700
+hide_when_no_media = true
+max_length = 180
+min_length = 0
+rotate_album_art = true
+show_tooltip = true
+title_scroll = "always"
+type = "media"
+
+[widget.music]
+capsule = false
+capsule_border_width = 0.0
+capsule_opacity = 0.0
+capsule_padding = 0
+font_family = "Bricolage Grotesque"
+text = "Music"
+type = "text"
+
+    [widget.music.actions]
+    left = "exec brave-origin --app=https://open.spotify.com"
+
+[widget.network]
+capsule = false
+capsule_border = "outline_variant"
+capsule_border_width = 0.0
+capsule_opacity = 0.0
+capsule_padding = 0
+font_weight = 700
+show_label = false
+show_vpn_label = true
+type = "network"
+vpn_status = "both"
+
+[widget.network_rx]
+stat = "net_rx"
+type = "sysmon"
+
+[widget.network_tx]
+stat = "net_tx"
+type = "sysmon"
+
+[widget.notes_2]
+type = "noctalia/notes:notes"
+
+[widget.notification]
+font_family = "Bricolage Grotesque"
+text = "Notification"
+type = "text"
+
+    [widget.notification.actions]
+    left = "panel-toggle control-center notifications"
+
+[widget.notifications]
+capsule = false
+capsule_border = "outline_variant"
+capsule_border_width = 0.5
+capsule_padding = 12
+font_weight = 700
+type = "notifications"
+
+[widget.output_volume]
+device = "output"
+type = "volume"
+
+[widget.ram]
+font_family = "Bricolage Grotesque"
+stat = "ram_used"
+type = "sysmon"
+visualization = "none"
+
+[widget.right]
+length = 12
+type = "spacer"
+
+[widget.session]
+capsule = false
+capsule_border = "outline_variant"
+capsule_border_width = 0.0
+capsule_opacity = 0.0
+capsule_padding = 0
+glyph = "power"
+icon_color = "error"
+type = "session"
+
+[widget.spacer]
+interactive = false
+type = "spacer"
+
+[widget.surakarta]
+font_family = "Bricolage Grotesque"
+text = "Surakarta"
+type = "text"
+
+[widget.taskbar]
+icon_scale = 1.05
+item_spacing = 10
+
+[widget.temp]
+stat = "cpu_temp"
+type = "sysmon"
+visualization = "none"
+
+[widget.volume]
+capsule = false
+capsule_border_width = 0.0
+capsule_opacity = 0.0
+capsule_padding = 0
+font_family = "Bricolage Grotesque"
+show_label = true
+
+[widget.wallpaper]
+capsule = false
+scale = 1.05
+show_tooltip = false
+
+[widget.wallpaperdesk]
+font_family = "Bricolage Grotesque"
+text = "Background"
+type = "text"
+
+    [widget.wallpaperdesk.actions]
+    left = "panel-toggle wallpaper"
+
+[widget.weather]
+font_family = "Bricolage Grotesque"
+max_length = 227
+show_condition = false
+
+[widget.widget]
+font_scale = 0.97999999999999998
+type = "thepunkoff/pomodoro:widget"
+
+[widget.widget_3]
+type = "alexander/screen-toolkit:widget"
+
+[widget.widget_4]
+type = "vn1k/icons:widget"
+
+[widget.widget_5]
+type = "amirfarzamnia/autoclicker:widget"
+
+[widget.widget_6]
+glyph = "color-picker"
+type = "oldirtty/color_picker:widget"
+
+[widget.widget_editor]
+glyph = "device-desktop"
+type = "custom_button"
+
+    [widget.widget_editor.actions]
+    left = "desktop-widgets-edit"
+
+[widget.workspaces]
+active_pill_size = 5.2000000000000002
+anchor = true
+capsule = true
+capsule_border = "outline_variant"
+capsule_border_width = 0.5
+capsule_foreground = "outline_variant"
+capsule_padding = 18
+change_color_on_hover = false
+empty_color = "outline_variant"
+focused_color = "primary"
+font_weight = 700
+inactive_pill_size = 1.6500000000000001
+max_label_chars = 9
+occupied_color = "secondary"
+pill_scale = 0.5
+show_tooltip = false
+style = "minimal"
+type = "workspaces"
